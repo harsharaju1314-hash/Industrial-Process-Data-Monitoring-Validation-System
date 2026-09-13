@@ -1,0 +1,52 @@
+{
+    "data_servers": {
+        "PIDATA01": {
+            "WebId": "F1DS7K1h4j3f_U-L7vB_MockServer",
+            "Name": "PIDATA01",
+            "ServerVersion": "2023 R2 (3.8.0.0)",
+            "IsConnected": true
+        }
+    },
+    "points": {
+        "REACTOR_01_TEMP": {
+            "WebId": "F1DP7K1h4j3f_U-L7vB_MockWebId_ReactorTemp",
+            "Name": "REACTOR_01_TEMP",
+            "Path": "\\\\PIDATA01\\REACTOR_01_TEMP",
+            "PointType": "Float32",
+            "EngineeringUnits": "degC",
+            "Descriptor": "Primary Hydrocracking Reactor Core Temperature"
+        },
+        "REACTOR_01_PRESS": {
+            "WebId": "F1DP7K1h4j3f_U-L7vB_MockWebId_ReactorPress",
+            "Name": "REACTOR_01_PRESS",
+            "Path": "\\\\PIDATA01\\REACTOR_01_PRESS",
+            "PointType": "Float32",
+            "EngineeringUnits": "bar",
+            "Descriptor": "Reactor Vessel Internal Pressure"
+        },
+        "COOLING_PUMP_FLOW": {
+            "WebId": "F1DP7K1h4j3f_U-L7vB_MockWebId_CoolingFlow",
+            "Name": "COOLING_PUMP_FLOW",
+            "Path": "\\\\PIDATA01\\COOLING_PUMP_FLOW",
+            "PointType": "Float32",
+            "EngineeringUnits": "m3/h",
+            "Descriptor": "Cooling Loop Secondary Water Flow Rate"
+        },
+        "COMPRESSOR_VIBRATION": {
+            "WebId": "F1DP7K1h4j3f_U-L7vB_MockWebId_CompVibe",
+            "Name": "COMPRESSOR_VIBRATION",
+            "Path": "\\\\PIDATA01\\COMPRESSOR_VIBRATION",
+            "PointType": "Float32",
+            "EngineeringUnits": "mm/s",
+            "Descriptor": "Compressor Bearing Radial Vibration Velocity"
+        },
+        "STORAGE_TANK_LEVEL": {
+            "WebId": "F1DP7K1h4j3f_U-L7vB_MockWebId_TankLevel",
+            "Name": "STORAGE_TANK_LEVEL",
+            "Path": "\\\\PIDATA01\\STORAGE_TANK_LEVEL",
+            "PointType": "Float32",
+            "EngineeringUnits": "%",
+            "Descriptor": "Chemical Intermediate Storage Tank Level"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Environment Variables & Secrets
+.env
+*.local.json
+build*.py
+
+# IDE
+.vscode/
+.idea/
+
+# Reports (preserve folder, ignore generated files)
+reports/*.json
+reports/*.csv
+!reports/.gitkeep

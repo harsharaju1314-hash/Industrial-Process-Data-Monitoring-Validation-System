@@ -1,0 +1,90 @@
+{
+    "data_server": "PIDATA01",
+    "tags": [
+        {
+            "tag_name": "REACTOR_01_TEMP",
+            "point_type": "Float32",
+            "engineering_units": "degC",
+            "description": "Primary Hydrocracking Reactor Core Temperature",
+            "web_id": "F1DP7K1h4j3f_U-L7vB_MockWebId_ReactorTemp",
+            "limits": {
+                "low_low": 10.0,
+                "low": 20.0,
+                "target": 65.0,
+                "high": 85.0,
+                "high_high": 95.0,
+                "max_rate_of_change_per_minute": 5.0,
+                "flatline_tolerance": 0.01,
+                "max_flatline_points": 5
+            }
+        },
+        {
+            "tag_name": "REACTOR_01_PRESS",
+            "point_type": "Float32",
+            "engineering_units": "bar",
+            "description": "Reactor Vessel Internal Pressure",
+            "web_id": "F1DP7K1h4j3f_U-L7vB_MockWebId_ReactorPress",
+            "limits": {
+                "low_low": 0.5,
+                "low": 1.0,
+                "target": 3.5,
+                "high": 6.0,
+                "high_high": 8.0,
+                "max_rate_of_change_per_minute": 1.5,
+                "flatline_tolerance": 0.005,
+                "max_flatline_points": 5
+            }
+        },
+        {
+            "tag_name": "COOLING_PUMP_FLOW",
+            "point_type": "Float32",
+            "engineering_units": "m3/h",
+            "description": "Cooling Loop Secondary Water Flow Rate",
+            "web_id": "F1DP7K1h4j3f_U-L7vB_MockWebId_CoolingFlow",
+            "limits": {
+                "low_low": 5.0,
+                "low": 10.0,
+                "target": 35.0,
+                "high": 50.0,
+                "high_high": 60.0,
+                "max_rate_of_change_per_minute": 10.0,
+                "flatline_tolerance": 0.05,
+                "max_flatline_points": 5
+            }
+        },
+        {
+            "tag_name": "COMPRESSOR_VIBRATION",
+            "point_type": "Float32",
+            "engineering_units": "mm/s",
+            "description": "Compressor Bearing Radial Vibration Velocity",
+            "web_id": "F1DP7K1h4j3f_U-L7vB_MockWebId_CompVibe",
+            "limits": {
+                "low_low": 0.0,
+                "low": 0.5,
+                "target": 2.2,
+                "high": 4.5,
+                "high_high": 7.0,
+                "max_rate_of_change_per_minute": 2.0,
+                "flatline_tolerance": 0.001,
+                "max_flatline_points": 6
+            }
+        },
+        {
+            "tag_name": "STORAGE_TANK_LEVEL",
+            "point_type": "Float32",
+            "engineering_units": "%",
+            "description": "Chemical Intermediate Storage Tank Level",
+            "web_id": "F1DP7K1h4j3f_U-L7vB_MockWebId_TankLevel",
+            "limits": {
+                "low_low": 5.0,
+                "low": 15.0,
+                "target": 50.0,
+                "high": 85.0,
+                "high_high": 95.0,
+                "max_rate_of_change_per_minute": 5.0,
+                "flatline_tolerance": 0.02,
+                "max_flatline_points": 5
+            }
+        }
+    ]
+}
